@@ -1,0 +1,14 @@
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\bin\Debug\WebTool.V1.exe.config
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\bin\Debug\WebTool.V1.exe
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\bin\Debug\WebTool.V1.pdb
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.csprojResolveAssemblyReference.cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\MainWindow.g.cs
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\App.g.cs
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1_MarkupCompile.cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1_MarkupCompile.lref
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\MainWindow.baml
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.g.resources
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.Properties.Resources.resources
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.csproj.GenerateResource.Cache
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.exe
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.pdb
