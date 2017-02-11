@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WebTool.V1"
         mc:Ignorable="d"
-        Title="Web Tool V.1" Height="500" Width="825">
+        Title="Web Tool V.1" Height="600" Width="825">
     <Grid>
         <TextBlock x:Name="textBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Width="35" Margin="20,20,0,0" TextWrapping="Wrap" Text="TITLE:" VerticalAlignment="Top" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="20"  Width="35" Margin="20,47,0,0" TextWrapping="Wrap" Text="URL:" VerticalAlignment="Top" TextAlignment="Center"/>
@@ -14,11 +14,13 @@
         <TextBox x:Name="urlTextBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Margin="60,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock4" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="411,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"><Run Text="Internet Connectivity"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="541,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" TextAlignment="Center" Background="Green"/>
-        <ScrollViewer HorizontalAlignment="Stretch" Height="400" Margin="200,40,0,0" VerticalAlignment="Stretch" Width="600">
-            <StackPanel>
-                
+        <ScrollViewer HorizontalAlignment="Stretch" Height="450" Margin="200,0,0,0" VerticalAlignment="Stretch" Width="600">
+            <StackPanel x:Name="stackPanel">
+
             </StackPanel>
         </ScrollViewer>
+        <Button x:Name="button1" Content="Clear All" HorizontalAlignment="Left" Margin="640,523,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Open All" HorizontalAlignment="Left" Margin="720,523,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

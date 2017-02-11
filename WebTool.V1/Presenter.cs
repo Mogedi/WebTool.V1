@@ -13,6 +13,8 @@ namespace WebTool.V1
 
         public string Url { get; set; }
 
+        public List<string> DatabaseData { get; set; }
+
     }
 
     public class Presenter
@@ -21,8 +23,9 @@ namespace WebTool.V1
 
         public PresenterInfo Presenting()
         {
-
             writeToFile.WriteToFile(Info.WebsiteTitle, Info.Url);
+
+            Info.DatabaseData = ReadFromFile.Read();
 
             return Info; 
         }

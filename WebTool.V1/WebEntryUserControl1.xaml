@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="WebTool.V1.WebEntryUserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WebTool.V1"
+             mc:Ignorable="d">
+    <Grid Background="#FFC9C9C9" HorizontalAlignment="Stretch" Width="545" VerticalAlignment="Stretch">
+        <TextBlock x:Name="webTitleTextBlock" HorizontalAlignment="Left" Margin="40,3,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="urlTextBlock" HorizontalAlignment="Left" Margin="233,3,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Open" HorizontalAlignment="Left" Margin="370,0,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button" Content="Remove" HorizontalAlignment="Right" Margin="0,0,5,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+
+    </Grid>
+</UserControl>

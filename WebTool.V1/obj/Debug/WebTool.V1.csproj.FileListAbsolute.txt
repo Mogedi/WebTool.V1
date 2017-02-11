@@ -12,3 +12,5 @@ c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V
 c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.csproj.GenerateResource.Cache
 c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.exe
 c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebTool.V1.pdb
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebEntryUserControl1.g.cs
+c:\users\mohamud.gedi\documents\visual studio 2015\Projects\WebTool.V1\WebTool.V1\obj\Debug\WebEntryUserControl1.baml
