@@ -7,23 +7,34 @@ using WebTool.V1.Model;
 
 namespace WebTool.V1
 {
-    class Presenter
+    public class PresenterInfo
     {
-        public class PresenterInfo
-        {
-            public string WebsiteTitle { get; set; }
+        public string WebsiteTitle { get; set; }
 
-            public string Url { get; set; }
+        public string Url { get; set; }
 
-        }
+    }
+
+    public class Presenter
+    {
+        PresenterInfo Info = new PresenterInfo();
 
         public PresenterInfo Presenting()
         {
-            PresenterInfo presentInstance = new PresenterInfo();
 
-            WriteToFile.WriteToFile("Google", "www.google.com");
+            writeToFile.WriteToFile(Info.WebsiteTitle, Info.Url);
 
-            return presentInstance; 
+            return Info; 
+        }
+
+        public void SetWebsiteTitle(string WebsiteTitle)
+        {
+            Info.WebsiteTitle = WebsiteTitle;
+        }
+
+        public void SetUrl(string Url)
+        {
+            Info.Url = Url;
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebTool.V1.Model
 {
-    class WriteToFile
+    class writeToFile
     {
         public static void WriteToFile(string websiteTitle, string url)
         {

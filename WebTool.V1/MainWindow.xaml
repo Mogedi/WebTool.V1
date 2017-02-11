@@ -10,8 +10,8 @@
         <TextBlock x:Name="textBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Width="35" Margin="20,20,0,0" TextWrapping="Wrap" Text="TITLE:" VerticalAlignment="Top" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="20"  Width="35" Margin="20,47,0,0" TextWrapping="Wrap" Text="URL:" VerticalAlignment="Top" TextAlignment="Center"/>
         <Button x:Name="button" Content="ADD" HorizontalAlignment="Left" Height="20" Margin="85,90,0,0" VerticalAlignment="Top" Width="60" Click="button_Click"/>
-        <TextBox x:Name="textBlock2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Margin="60,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextAlignment="Center"/>
-        <TextBox x:Name="textBlock3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Margin="60,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextAlignment="Center"/>
+        <TextBox x:Name="titleTextBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Margin="60,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextAlignment="Center"/>
+        <TextBox x:Name="urlTextBlock" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="20" Margin="60,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock4" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="411,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"><Run Text="Internet Connectivity"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="541,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" TextAlignment="Center" Background="Green"/>
         <ScrollViewer HorizontalAlignment="Stretch" Height="400" Margin="200,40,0,0" VerticalAlignment="Stretch" Width="600">

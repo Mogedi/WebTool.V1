@@ -29,6 +29,10 @@ namespace WebTool.V1
         {
             Presenter present = new Presenter();
 
+            present.SetWebsiteTitle(titleTextBlock.Text);
+
+            present.SetUrl(urlTextBlock.Text);
+
             present.Presenting();
         }
     }
